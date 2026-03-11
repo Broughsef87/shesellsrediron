@@ -93,17 +93,13 @@ export default function Home() {
       <section id="about" className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-16 items-center">
-            {/* Image placeholder */}
+            {/* Lisa photo */}
             <div className="flex justify-center">
-              <div
-                className="w-full max-w-sm aspect-square rounded-2xl bg-[#E5E7EB] flex items-center justify-center"
-                aria-label="Lisa Wirth photo placeholder"
-              >
-                <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#9CA3AF" strokeWidth="1.2">
-                  <circle cx="12" cy="8" r="4" />
-                  <path strokeLinecap="round" d="M4 20c0-4 3.6-7 8-7s8 3 8 7" />
-                </svg>
-              </div>
+              <img
+                src="/Lisa-Wirth.jpeg"
+                alt="Lisa Wirth"
+                className="w-full max-w-sm aspect-square rounded-2xl object-cover shadow-md"
+              />
             </div>
 
             {/* Text */}
