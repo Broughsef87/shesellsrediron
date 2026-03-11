@@ -226,7 +226,7 @@ export default function Home() {
             Reach out to Lisa directly — no pressure, no games.
           </p>
           <a
-            href="mailto:lisa@roimetalbuildings.com"
+            href="mailto:wirth.lisa.n@gmail.com"
             className="inline-block bg-[#B91C1C] text-white text-sm font-semibold px-8 py-4 rounded-md hover:bg-[#991B1B] transition-colors shadow-sm mb-8"
           >
             Email Lisa
