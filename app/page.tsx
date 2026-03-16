@@ -108,10 +108,10 @@ export default function Home() {
                 About Lisa
               </p>
               <h2 className="text-3xl md:text-4xl font-bold tracking-tight leading-snug mb-6">
-                No-nonsense expertise,<br />built over 30 years.
+                No-nonsense expertise,<br />built over 10 years.
               </h2>
               <p className="text-[#6B7280] leading-relaxed mb-5">
-                With over 30 years in the steel building industry, Lisa Wirth has built a reputation on
+                With over 10 years in the steel building industry, Lisa Wirth has built a reputation on
                 one thing: no-nonsense expertise. She works with clients nationwide, helping with
                 everything from red iron building selection to site optimization, foundation engineering,
                 and budgeting.
