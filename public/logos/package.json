@@ -1,0 +1,16 @@
+{
+  "name": "logos",
+  "version": "1.0.0",
+  "description": "The I-beam mark replaces the \"I\" in Iron — red, inline with the wordmark. Font: Inter 800. Color: #C0392B (red), #111111 (black).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "puppeteer": "^24.39.0"
+  }
+}

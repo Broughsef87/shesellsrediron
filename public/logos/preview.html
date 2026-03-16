@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>She Sells Red Iron — Logo Suite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #F0EFED; font-family: 'Inter', sans-serif; padding: 56px; }
+
+    .grid { display: flex; flex-direction: column; gap: 40px; max-width: 720px; }
+
+    .label {
+      font-size: 10px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #9CA3AF;
+      margin-bottom: 14px;
+      font-weight: 600;
+    }
+
+    .card {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 44px 64px;
+      border-radius: 10px;
+      width: 100%;
+    }
+    .card.white  { background: #FFFFFF; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+    .card.dark   { background: #111111; }
+    .card.red    { background: #C0392B; }
+    .card.cream  { background: #FAF7F4; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+
+    /* ── Wordmark ── */
+    .wm {
+      display: inline-flex;
+      align-items: center;
+      gap: 0;
+      font-family: 'Inter', sans-serif;
+      font-weight: 800;
+      font-size: 38px;
+      letter-spacing: -0.03em;
+      color: #111111;
+      line-height: 1;
+    }
+    .wm.white-text { color: #FFFFFF; }
+
+    /* ── I-Beam mark ── */
+    .ibeam {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 1px;
+      transform: translateY(-1px);
+      flex-shrink: 0;
+    }
+    .ibeam .f  { width: 22px; height: 6px; border-radius: 1px; display: block; }
+    .ibeam .w  { width: 6px;  height: 18px; display: block; }
+
+    .ibeam.red   .f, .ibeam.red   .w { background: #C0392B; }
+    .ibeam.white .f, .ibeam.white .w { background: #FFFFFF; }
+    .ibeam.dark  .f, .ibeam.dark  .w { background: #111111; }
+
+    /* ── Stacked ── */
+    .stacked {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 18px;
+    }
+    .ibeam-lg {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .ibeam-lg .f { width: 44px; height: 10px; border-radius: 2px; display: block; }
+    .ibeam-lg .w { width: 10px; height: 32px; display: block; }
+    .ibeam-lg.red   .f, .ibeam-lg.red   .w { background: #C0392B; }
+    .ibeam-lg.white .f, .ibeam-lg.white .w { background: #FFFFFF; }
+
+    .stacked-text {
+      font-family: 'Inter', sans-serif;
+      font-weight: 800;
+      font-size: 28px;
+      letter-spacing: -0.02em;
+      color: #111111;
+      line-height: 1;
+      text-align: center;
+    }
+    .stacked-text.white-text { color: #FFFFFF; }
+
+    /* ── Small / favicon ── */
+    .favicon-wrap {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+    }
+    .favicon {
+      width: 56px; height: 56px;
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .favicon.dark-bg  { background: #111111; }
+    .favicon.red-bg   { background: #C0392B; }
+    .favicon.white-bg { background: #FFFFFF; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
+    .ibeam-sm {
+      display: flex; flex-direction: column; align-items: center;
+    }
+    .ibeam-sm .f { width: 22px; height: 5px; border-radius: 1px; display: block; }
+    .ibeam-sm .w { width: 5px;  height: 16px; display: block; }
+    .ibeam-sm.white .f, .ibeam-sm.white .w { background: #FFFFFF; }
+    .ibeam-sm.red   .f, .ibeam-sm.red   .w { background: #C0392B; }
+    .ibeam-sm.dark  .f, .ibeam-sm.dark  .w { background: #111111; }
+  </style>
+</head>
+<body>
+<div class="grid">
+
+  <!-- 1. PRIMARY -->
+  <div>
+    <p class="label">01 — Primary · Black on White</p>
+    <div class="card white">
+      <div class="wm">
+        She Sells Red&nbsp;<span class="ibeam red"><span class="f"></span><span class="w"></span><span class="f"></span></span>ron
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. CREAM -->
+  <div>
+    <p class="label">02 — Warm White / Cream</p>
+    <div class="card cream">
+      <div class="wm">
+        She Sells Red&nbsp;<span class="ibeam red"><span class="f"></span><span class="w"></span><span class="f"></span></span>ron
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. WHITE ON DARK -->
+  <div>
+    <p class="label">03 — White on Dark</p>
+    <div class="card dark">
+      <div class="wm white-text">
+        She Sells Red&nbsp;<span class="ibeam red"><span class="f"></span><span class="w"></span><span class="f"></span></span>ron
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. WHITE ON RED -->
+  <div>
+    <p class="label">04 — White on Red</p>
+    <div class="card red">
+      <div class="wm white-text">
+        She Sells Red&nbsp;<span class="ibeam white"><span class="f"></span><span class="w"></span><span class="f"></span></span>ron
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. RED TEXT ON WHITE -->
+  <div>
+    <p class="label">05 — All Red</p>
+    <div class="card white">
+      <div class="wm" style="color:#C0392B;">
+        She Sells Red&nbsp;<span class="ibeam red"><span class="f"></span><span class="w"></span><span class="f"></span></span>ron
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. STACKED — ICON + TEXT -->
+  <div>
+    <p class="label">06 — Stacked · Icon + Wordmark</p>
+    <div class="card white">
+      <div class="stacked">
+        <div class="ibeam-lg red">
+          <span class="f"></span><span class="w"></span><span class="f"></span>
+        </div>
+        <div class="stacked-text">She Sells Red Iron</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7. STACKED DARK -->
+  <div>
+    <p class="label">07 — Stacked · White on Dark</p>
+    <div class="card dark">
+      <div class="stacked">
+        <div class="ibeam-lg white">
+          <span class="f"></span><span class="w"></span><span class="f"></span>
+        </div>
+        <div class="stacked-text white-text">She Sells Red Iron</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 8. ICON / FAVICON -->
+  <div>
+    <p class="label">08 — Icon Mark · Favicon / Avatar</p>
+    <div class="card white">
+      <div class="favicon-wrap">
+        <div class="favicon dark-bg">
+          <div class="ibeam-sm white"><span class="f"></span><span class="w"></span><span class="f"></span></div>
+        </div>
+        <div class="favicon red-bg">
+          <div class="ibeam-sm white"><span class="f"></span><span class="w"></span><span class="f"></span></div>
+        </div>
+        <div class="favicon white-bg">
+          <div class="ibeam-sm red"><span class="f"></span><span class="w"></span><span class="f"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

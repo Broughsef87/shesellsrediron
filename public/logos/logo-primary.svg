@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 72" width="500" height="72">
+  <defs>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&amp;display=swap');</style>
+  </defs>
+  <!-- Small I-beam mark -->
+  <rect x="0"  y="16" width="20" height="5" rx="1" fill="#C0392B"/>
+  <rect x="7.5" y="21" width="5"  height="28" fill="#C0392B"/>
+  <rect x="0"  y="49" width="20" height="5" rx="1" fill="#C0392B"/>
+  <!-- Wordmark -->
+  <text x="32" y="56"
+    font-family="'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+    font-size="48" font-weight="800" letter-spacing="-1.5" fill="#111111">She Sells Red Iron</text>
+</svg>
