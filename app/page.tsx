@@ -160,14 +160,14 @@ export default function Home() {
             <div className="bg-white rounded-2xl p-8 border border-[#E5E7EB] shadow-sm">
               <div className="w-12 h-12 bg-[#FEE2E2] rounded-xl flex items-center justify-center mb-6">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#B91C1C" strokeWidth="2">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 7H6a2 2 0 00-2 2v9a2 2 0 002 2h12a2 2 0 002-2V9a2 2 0 00-2-2h-3M9 7V5a2 2 0 012-2h2a2 2 0 012 2v2M9 7h6" />
-                  <path strokeLinecap="round" d="M12 12v5M9.5 14.5l2.5-2.5 2.5 2.5" />
+                  <circle cx="12" cy="12" r="3" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.54 8.46a5 5 0 010 7.07M8.46 8.46a5 5 0 000 7.07" />
                 </svg>
               </div>
-              <h3 className="text-lg font-bold mb-3">Consulting &amp; Budgeting</h3>
+              <h3 className="text-lg font-bold mb-3">AI Agent Services</h3>
               <p className="text-[#6B7280] text-sm leading-relaxed">
-                Site optimization, foundation engineering, estimation — Lisa guides every step so you
-                don&apos;t overpay or under-plan.
+                Intelligent automation for brokers, contractors, small businesses, GCs, et al — streamlining workflows and saving time from quote to close.
               </p>
             </div>
 
