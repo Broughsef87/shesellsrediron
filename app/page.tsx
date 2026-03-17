@@ -11,9 +11,19 @@ export default function Home() {
       <nav className="sticky top-0 z-50 bg-white border-b border-[#E5E7EB]">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           {/* Wordmark */}
-          <a href="#" className="text-xl font-bold tracking-tight text-[#111111]">
-            She Sells Red Iron
-          </a>
+          <div className="flex items-center gap-3">
+            <a href="https://roimetalbuildings.com" target="_blank" rel="noopener noreferrer">
+              <img
+                src="https://roimetalbuildings.com/wp-content/uploads/2024/01/image1-e1706542975540.png"
+                alt="ROI Metal Buildings Logo"
+                className="h-8 w-auto"
+              />
+            </a>
+            <div className="h-6 w-px bg-[#E5E7EB] hidden sm:block" />
+            <a href="#" className="text-xl font-bold tracking-tight text-[#111111]">
+              She Sells Red Iron
+            </a>
+          </div>
 
           {/* Desktop nav links */}
           <div className="hidden md:flex items-center gap-8">
@@ -69,16 +79,27 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-white/60 via-transparent to-white/80 pointer-events-none" />
 
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-          <p className="text-xs font-semibold tracking-[0.25em] uppercase text-[#B91C1C] mb-6">
-            Red Iron Steel Buildings
-          </p>
+          <div className="flex items-center justify-center gap-4 mb-6">
+            <img
+              src="https://roimetalbuildings.com/wp-content/uploads/2024/01/image1-e1706542975540.png"
+              alt="ROI Metal Buildings Logo"
+              className="h-10 w-auto"
+            />
+            <div className="h-8 w-px bg-[#E5E7EB]" />
+            <p className="text-xs font-semibold tracking-[0.25em] uppercase text-[#B91C1C]">
+              Red Iron Steel Buildings
+            </p>
+          </div>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-[1.08] text-[#111111] mb-6">
             Steel. Straight Talk.
             <br />
             <span className="text-[#B91C1C]">Decades of Experience.</span>
           </h1>
-          <p className="text-lg md:text-xl text-[#6B7280] max-w-2xl mx-auto mb-10 leading-relaxed">
+          <p className="text-lg md:text-xl text-[#6B7280] max-w-2xl mx-auto mb-4 leading-relaxed">
             Lisa Wirth is one of the most trusted names in the red iron steel building industry.
+          </p>
+          <p className="text-sm font-medium text-[#111111] mb-10">
+            Proud Co-Owner of <a href="https://roimetalbuildings.com" target="_blank" rel="noopener noreferrer" className="underline decoration-[#B91C1C] decoration-2 underline-offset-4 hover:text-[#B91C1C] transition-colors">ROI Metal Buildings</a>
           </p>
           <a
             href="#contact"
@@ -107,9 +128,13 @@ export default function Home() {
               <p className="text-xs font-semibold tracking-[0.25em] uppercase text-[#B91C1C] mb-4">
                 About Lisa
               </p>
-              <h2 className="text-3xl md:text-4xl font-bold tracking-tight leading-snug mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold tracking-tight leading-snug mb-2">
                 No-nonsense expertise,<br />built over 15 years.
               </h2>
+              <p className="text-sm font-semibold text-[#111111] mb-6 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-[#B91C1C]"></span>
+                Proud Co-Owner of <a href="https://roimetalbuildings.com" target="_blank" rel="noopener noreferrer" className="text-[#B91C1C] hover:underline transition-all">ROI Metal Buildings</a>
+              </p>
               <p className="text-[#6B7280] leading-relaxed mb-5">
                 With over 15 years in the steel building industry, Lisa Wirth has built a reputation on
                 one thing: no-nonsense expertise. She works with clients nationwide, helping with
