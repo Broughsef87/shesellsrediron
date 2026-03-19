@@ -12,13 +12,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           {/* Wordmark */}
           <div className="flex items-center gap-3">
-            <a href="https://roimetalbuildings.com" target="_blank" rel="noopener noreferrer">
-              <img
-                src="https://roimetalbuildings.com/wp-content/uploads/2024/01/image1-e1706542975540.png"
-                alt="ROI Metal Buildings Logo"
-                className="h-8 w-auto"
-              />
-            </a>
+            <img
+              src="/logos/logo-icon-red.svg"
+              alt="She Sells Red Iron"
+              className="h-8 w-auto"
+            />
             <div className="h-6 w-px bg-[#E5E7EB] hidden sm:block" />
             <a href="#" className="text-xl font-bold tracking-tight text-[#111111]">
               She Sells Red Iron
