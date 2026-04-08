@@ -270,7 +270,15 @@ export default function Home() {
       {/* ── FOOTER ──────────────────────────────────────────────── */}
       <footer className="py-8 border-t border-[#E5E7EB] bg-white">
         <p className="text-center text-sm text-[#6B7280]">
-          &copy; 2026 Lisa Wirth &middot; She Sells Red Iron
+          &copy; 2026 Lisa Wirth &middot; She Sells Red Iron &middot;{" "}
+          <a
+            href="https://medium.com/@lisawirthroimetalbuildings"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#111111] font-medium hover:text-[#B91C1C] transition-colors"
+          >
+            Blog
+          </a>
         </p>
       </footer>
     </main>
